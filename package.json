@@ -13,13 +13,14 @@
   "license": "ISC",
   "author": "",
   "type": "commonjs",
-  "main": "express.js",
+  "main": "fetch.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node express.js",
+    "start": "node fetch.js",
     "dev": "nodemon start"
   },
   "dependencies": {
+    "axios": "^1.8.4",
     "express": "^5.1.0",
     "node-fetch": "^3.3.2",
     "nodemon": "^3.1.9",
