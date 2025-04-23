@@ -1,0 +1,28 @@
+{
+  "name": "node_programs",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/KAVYAKOLLU/NODE_PROGRAMS#readme",
+  "bugs": {
+    "url": "https://github.com/KAVYAKOLLU/NODE_PROGRAMS/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KAVYAKOLLU/NODE_PROGRAMS.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "express.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node express.js",
+    "dev": "nodemon start"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.9",
+    "url": "^0.11.4"
+  }
+}
