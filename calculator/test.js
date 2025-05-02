@@ -17,6 +17,11 @@ const calculator = require('./calculator')
 let num1 = 10;
 let num2 = 20;
 let operator = '*';
-console.log(calculator(num1,num2,operator))
+let result = calculator(num1,num2,operator)
+let sfdr = calculator(num1,num2,operator)
+let ressgehreult = calculator(num1,num2,operator)
+let ressthrtrhsult = calculator(num1,num2,operator)
+let ressrthyshtrult = calculator(num1,num2,operator)
+console.log(result)
 
 
